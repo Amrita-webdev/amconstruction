@@ -1,11 +1,14 @@
 {
-  "name": "amconstruction",
+  "name": "AMconstruction",
+  "homepage": "https://Amrita-webdev.github.io/amconstruction",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
     "build": "vite build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
